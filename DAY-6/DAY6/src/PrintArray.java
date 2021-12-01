@@ -1,7 +1,7 @@
 public class PrintArray {
     public static void main(String[] args) {
         Integer[] intArray = {1,2,3,4};
-        String[] strArray = {"Hai","Hello","Bye"};
+        String[] strArray = {"Hi","Sneha","Bye"};
         Display<Integer> display = new Display<Integer>();
         Display<String> display1=new Display<String>();
         display.printArray(intArray);
