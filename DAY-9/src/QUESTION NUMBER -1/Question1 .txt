@@ -1,0 +1,29 @@
+PROPERTIES:
+
+1.APPLICANT	           2.EMPLOYER
+id                        id
+name                      name
+email                     email
+dob                       mobile   
+address                   username
+username                  password 
+password                  address
+
+3.ADMIN                 4.INTERVIEW
+username                   id
+password                   job
+		                   description
+			               title
+                           date
+
+5.JOB ROLE              6.JOB PROFILE
+id                         name
+title                      post
+description                location
+			   package
+
+METHODS:
+add()--------------->
+edit()-------------->
+search()------------>for all properties
+delete()------------>
