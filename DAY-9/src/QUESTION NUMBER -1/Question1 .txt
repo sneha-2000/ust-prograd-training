@@ -20,7 +20,7 @@ password                   job
 id                         name
 title                      post
 description                location
-			   package
+			               package
 
 METHODS:
 add()--------------->

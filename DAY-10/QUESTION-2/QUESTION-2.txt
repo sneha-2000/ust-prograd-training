@@ -1,0 +1,47 @@
+ADMIN:
+	Properties: name,id
+	Methods: viewProduct()
+		 addProduct()
+		 deleteProduct()
+		 makeShipment()
+		 confirmDelivery()
+
+
+CUSTOMER:
+
+	Properties:id,name,address,moblieNo
+	Methods:buyProduct()
+		viewProduct()
+		makePayment()
+		addToCart()
+		deleteFromCart()
+
+
+MANAGER:
+	
+	Properties:id,name,mobile
+	Methods:manage_cart_details()
+		manage_product()
+
+PRODUCTS:
+
+	Properties:id,name,category
+	Methods:product_category
+		product_damage()
+		product_outofstock()
+
+
+
+CART:
+	Properties:id,number_of_products,price_of_products,total_products
+	Methods:listOfProducts()
+
+PAYMENT:
+
+	Properties:id,name,cardName,bankName
+	Methods:cashOnDelivery()
+		upi_payment()
+		card_payment()
+
+
+	
