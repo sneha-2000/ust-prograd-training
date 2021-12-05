@@ -1,6 +1,6 @@
 PROPERTIES:
 
-1.APPLICANT	           2.EMPLOYER
+1.APPLICANT	          2.EMPLOYER
 id                        id
 name                      name
 email                     email
@@ -12,8 +12,8 @@ password                  address
 3.ADMIN                 4.INTERVIEW
 username                   id
 password                   job
-		                   description
-			               title
+		           description
+			   title
                            date
 
 5.JOB ROLE              6.JOB PROFILE
