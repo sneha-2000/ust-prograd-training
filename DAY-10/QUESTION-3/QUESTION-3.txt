@@ -5,7 +5,7 @@ Train:
 
 
 Ticket Clerk:
-	PROPERTIES:clerk_id,clerk_name
+	PROPERTIES:clerkId,clerkName
 	METHODS:reserveSeat(),reserveTicket(),cancelTicket(),refundPayment()
 
 

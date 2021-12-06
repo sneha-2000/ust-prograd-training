@@ -20,28 +20,28 @@ CUSTOMER:
 MANAGER:
 	
 	Properties:id,name,mobile
-	Methods:manage_cart_details()
-		manage_product()
+	Methods:manageCartDetails()
+		manageProduct()
 
 PRODUCTS:
 
 	Properties:id,name,category
-	Methods:product_category
-		product_damage()
-		product_outofstock()
+	Methods:productCategory
+		productDamage()
+		productOutOfStock()
 
 
 
 CART:
-	Properties:id,number_of_products,price_of_products,total_products
+	Properties:id,numberOfProducts,priceOfProducts,totalProducts
 	Methods:listOfProducts()
 
 PAYMENT:
 
 	Properties:id,name,cardName,bankName
 	Methods:cashOnDelivery()
-		upi_payment()
-		card_payment()
+		upiPayment()
+		cardPayment()
 
 
 	
