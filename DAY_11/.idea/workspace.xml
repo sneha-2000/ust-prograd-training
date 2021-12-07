@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da32ff2e-38d3-48e3-9a3d-f0c0f1fc428b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../DAY-11/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DAY-11/src/main/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DAY-11/src/main/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DAY-11/src/main/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DAY-11/src/main/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DAY-11/src/main/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DAY-11/src/main/java/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DAY-11/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DAY-11/src/test/java/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DAY-11/src/test/test.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="21wRCyJYszCnXUblWw0N75aCB4w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DAY-12" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="JUnit.RectangleTest">
+    <configuration name="RectangleTest$TestingAreaOfRectangle.areaOfRectangleWithSidesTwoAndFourIsEight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DAY_11" />
+      <option name="PACKAGE_NAME" value="RectangleTest" />
+      <option name="MAIN_CLASS_NAME" value="RectangleTest$TestingAreaOfRectangle" />
+      <option name="METHOD_NAME" value="areaOfRectangleWithSidesTwoAndFourIsEight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DAY_11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DAY_11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RectangleTest" />
+        <item itemvalue="JUnit.RectangleTest$TestingAreaOfRectangle.areaOfRectangleWithSidesTwoAndFourIsEight" />
+        <item itemvalue="JUnit.RectangleTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da32ff2e-38d3-48e3-9a3d-f0c0f1fc428b" name="Changes" comment="" />
+      <created>1638850039643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638850039643</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
