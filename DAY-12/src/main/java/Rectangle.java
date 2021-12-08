@@ -1,5 +1,3 @@
-import java.io.IOException;
-import java.io.InvalidClassException;
 
 public class Rectangle {
     private double length;
