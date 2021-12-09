@@ -1,54 +1,59 @@
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ArchitectTest {
+class ConvertorTest {
+    private Convertor convertor;
+    @BeforeEach
+    public void setup(){
+        convertor = new Convertor();
+    }
 
     @Test
     public void checkForOneCentimeterIsOneCentimeter(){
-        Architect architect= new Architect(1, "cm");
-        double actualMeasurement= architect.centimeter();
+        double actualMeasurement= convertor.unitConvertor(1, "cm","cm");
         double expectedMeasurement= 1;
         assertEquals(expectedMeasurement, actualMeasurement);
     }
 
     @Test
     public void checkForOneMeterIsHundredCentimeters(){
-        Architect architect= new Architect(1,"m");
-        double actualMeasurement= architect.centimeter();
+        double actualMeasurement= convertor.unitConvertor(1,"m","cm");
         double expectedMeasurement= 100;
         assertEquals(expectedMeasurement, actualMeasurement);
     }
 
     @Test
     public void checkForHundredCentimeterIsZeroPointZeroZeroOneKilometers(){
-        Architect architect= new Architect(100,"cm");
-        double actualMeasurement= architect.kilometer();
+        double actualMeasurement= convertor.unitConvertor(100, "cm","km");
         double expectedMeasurement= 0.001;
         assertEquals(expectedMeasurement, actualMeasurement);
     }
 
     @Test
-    public void throwsExceptionWhenCentimeterIsLessThanOrEqualToZero(){
+    public void throwsExceptionWhenMeasurementIsLessThanOrEqualToZero(){
         assertThrows(IllegalArgumentException.class, ()-> {
-            Architect architect =new Architect(-1,"cm");
-            architect.centimeter();
+            convertor.unitConvertor(-1,"cm","cm");
         });
     }
 
+
     @Test
-    public void throwsExceptionWhenKilometerIsLessThanOrEqualToZero(){
+     public void throwsExceptionWhenUnitIsMillimeter(){
         assertThrows(IllegalArgumentException.class, ()-> {
-            Architect architect =new Architect(-1,"km");
-            architect.kilometer();
+            convertor.unitConvertor(1, "mm","mm");
         });
     }
 
+
     @Test
-    public void throwsExceptionWhenUnitIsMillimeter(){
+    public void throwsExceptionWhenUnitIsInvalidUnit(){
         assertThrows(IllegalArgumentException.class, ()-> {
-            Architect architect =new Architect(1,"mm");
-            architect.kilometer();
+            convertor.unitConvertor(1, "km","km");
         });
     }
+
+
 }
+
