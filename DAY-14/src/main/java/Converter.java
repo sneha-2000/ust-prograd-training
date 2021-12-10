@@ -1,6 +1,6 @@
-public class Convertor {
+public class Converter {
 
-    public double unitConvertor(double measurement,String fromUnit,String toUnit){
+    public double unitConverter(double measurement,String fromUnit,String toUnit){
         if(measurement<=0){
             throw new IllegalArgumentException("Measurement should not be zero or negative");
         }
@@ -58,11 +58,11 @@ public class Convertor {
     }
 
     public double addUnit(double measurement1, String unit1, double measurement2, String unit2 ){
-        return unitConvertor(measurement1,unit1,unit1) + unitConvertor(measurement2,unit2,unit1);
+        return unitConverter(measurement1,unit1,unit1) + unitConverter(measurement2,unit2,unit1);
     }
 
     public double subtractUnit(double measurement1, String unit1, double measurement2, String unit2 ){
-        return unitConvertor(measurement1,unit1,unit1) - unitConvertor(measurement2,unit2,unit1);
+        return unitConverter(measurement1,unit1,unit1) - unitConverter(measurement2,unit2,unit1);
     }
 }
 
