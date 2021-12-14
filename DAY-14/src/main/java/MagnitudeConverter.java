@@ -1,70 +1,33 @@
-public class LengthConverter {
+ public class MagnitudeConverter{
 
-    public double unitConverter(double magnitude,String fromUnit,String toUnit){
-        if(magnitude<=0){
-            throw new IllegalArgumentException("Measurement should not be zero or negative");
+        public double centiToCenti(double magnitudeInCenti){
+                return magnitudeInCenti;
         }
-        else{
-             switch (toUnit) {
-                case "centi" :
-                    return convertCentiToCenti(magnitude, fromUnit);
-                case "base" :
-                     return convertToBase(magnitude, fromUnit);
-                case "kilo" :
-                     return convertKiloToKilo(magnitude, fromUnit);
-                default :
-                    throw new IllegalArgumentException("Invalid Unit");
-            }
+        //Base can be metre or gram
+        public double centiToBase(double magnitudeInCenti){
+            return magnitudeInCenti/100;
         }
-    }
+        public double baseToCenti(double magnitudeInBase){
+                return magnitudeInBase*100;
+        }
+        public double centiToKilo(double magnitudeInCenti){
+                return magnitudeInCenti/100000;
+        }
+        public double baseToBase(double magnitudeInMeterOrInGram){
+                return magnitudeInMeterOrInGram;
+        }
+        public double baseToKilo(double magnitudeInKilo){
+                return magnitudeInKilo/1000;
+        }
+        public double kiloToBase(double magnitudeInKilo){
+                return magnitudeInKilo*1000;
+        }
+        public double kiloToCenti(double magnitudeInKilo){
+                return magnitudeInKilo*100000;
+        }
 
-    public double convertCentiToCenti(double magnitude,String fromUnit){
-         switch (fromUnit) {
-             case "centi" :
-                 return magnitude;
-             case "base" :
-                 return magnitude * 100;
-             case "kilo" :
-                 return magnitude * 100000;
-             default :
-                 throw new IllegalArgumentException("Invalid Unit");
-        }
-    }
-// Base can be metre or gram
-    public double convertToBase(double magnitude,String fromUnit){
-         switch (fromUnit) {
-             case "centi" :
-                     return magnitude / 100;
-             case "base" :
-                     return magnitude;
-             case "kilo" :
-                    return magnitude * 1000;
-             default :
-                    throw new IllegalArgumentException("Invalid Unit");
-        }
-    }
 
-    public double convertKiloToKilo(double magnitude,String fromUnit){
-         switch (fromUnit) {
-             case "centi" :
-                    return magnitude / 100000;
-             case "base" :
-                    return magnitude / 1000;
-             case "kilo" :
-                    return magnitude;
-             default :
-                 throw new IllegalArgumentException("Invalid Unit");
-        }
     }
-
-    public double addUnit(double magnitude1, String unit1, double magnitude2, String unit2 ){
-        return unitConverter(magnitude1,unit1,unit1) + unitConverter(magnitude2,unit2,unit1);
-    }
-
-    public double subtractUnit(double magnitude1, String unit1, double magnitude2, String unit2 ){
-        return unitConverter(magnitude1,unit1,unit1) - unitConverter(magnitude2,unit2,unit1);
-    }
-}
 
 
 
