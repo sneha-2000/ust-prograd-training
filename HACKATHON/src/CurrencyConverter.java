@@ -59,6 +59,7 @@ public class CurrencyConverter{
 
 
 
+
 //Make a console based currency converter application with support for at least 5 currencies.
 // Requirements: 1. Must be a menu driven program.
 // 2. All currencies to be displayed correct upto 2 decimal places.
