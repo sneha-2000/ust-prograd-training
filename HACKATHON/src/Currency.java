@@ -21,7 +21,7 @@ public class Currency {
         log.info("*****PROGRAM HAS BEGIN*****");
 
         int choice; // for storing user's choice
-        sc = new Scanner(System.in);
+
 
         System.out.println("***********CONVERT YOUR CURRENCY**********");
         System.out.println("1:Rupees to USD");
@@ -32,11 +32,13 @@ public class Currency {
         System.out.println("6: Singapore Dollars To Rupees");
         System.out.println("7: Rupees to Yuan");
         System.out.println("8: Yuan to Rupees");
-        System.out.println("Enter your Choice from 1-8:");
+        System.out.println("Enter your Choice from 1-8");
+
+        sc = new Scanner(System.in);
 
 
         while (true){
-            System.out.println("SELECT THE CURRENCY YOU WANT:");
+
             choice = sc.nextInt();
             switch(choice){
                 case 1:
@@ -72,7 +74,7 @@ public class Currency {
                         throw new IllegalArgumentException("Amount can't be zero or negative...");
                     }
                     else {
-                        System.out.println(currencyConverter.rupeesToEuros((amountInINR)));
+                        System.out.printf("%.2f",currencyConverter.rupeesToEuros((amountInINR)));
                     }
 
                     break;
@@ -98,7 +100,7 @@ public class Currency {
                         throw new IllegalArgumentException("Amount can't be zero or negative...");
                     }
                     else {
-                        System.out.println(currencyConverter.rupeesToSingaporeDollars((amountInINR)));
+                        System.out.printf("%.2f",currencyConverter.rupeesToSingaporeDollars((amountInINR)));
                     }
 
                     break;
@@ -124,7 +126,7 @@ public class Currency {
                         throw new IllegalArgumentException("Amount can't be zero or negative...");
                     }
                     else {
-                        System.out.println(currencyConverter.rupeesToSingaporeDollars((amountInINR)));
+                        System.out.printf("%.2f",currencyConverter.rupeesToSingaporeDollars((amountInINR)));
                     }
 
                     break;

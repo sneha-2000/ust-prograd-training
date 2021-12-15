@@ -1,4 +1,4 @@
-Dec 15, 2021 1:58:19 PM Currency main
+Dec 15, 2021 2:13:59 PM Currency main
 INFO: *****PROGRAM HAS BEGIN*****
 ***********CONVERT YOUR CURRENCY**********
 1:Rupees to USD
@@ -9,11 +9,10 @@ INFO: *****PROGRAM HAS BEGIN*****
 6: Singapore Dollars To Rupees
 7: Rupees to Yuan
 8: Yuan to Rupees
-Enter your Choice from 1-8:
-SELECT THE CURRENCY YOU WANT:
-Selected currency is: DOLLARS TO RUPEES
-Dec 15, 2021 1:58:37 PM Currency main
-INFO: User entered amount1.0
-74.85 Dec 15, 2021 1:58:37 PM Currency main
-SELECT THE CURRENCY YOU WANT:
+Enter your Choice from 1-8
+Selected currency is: RUPEES TO USD
+Enter rupee amount: Dec 15, 2021 2:14:15 PM Currency main
+1.0
+INFO: User entered amount74.85
+Dec 15, 2021 2:14:15 PM Currency main
 INFO: *****PROGRAM HAS STOPPED*****
