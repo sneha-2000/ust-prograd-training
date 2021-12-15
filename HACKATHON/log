@@ -1,0 +1,19 @@
+Dec 15, 2021 1:58:19 PM Currency main
+INFO: *****PROGRAM HAS BEGIN*****
+***********CONVERT YOUR CURRENCY**********
+1:Rupees to USD
+2:USD to Rupees
+3:Rupees to Euros
+4: Euros to Rupees
+5: Rupees to Singapore Dollars
+6: Singapore Dollars To Rupees
+7: Rupees to Yuan
+8: Yuan to Rupees
+Enter your Choice from 1-8:
+SELECT THE CURRENCY YOU WANT:
+Selected currency is: DOLLARS TO RUPEES
+Dec 15, 2021 1:58:37 PM Currency main
+INFO: User entered amount1.0
+74.85 Dec 15, 2021 1:58:37 PM Currency main
+SELECT THE CURRENCY YOU WANT:
+INFO: *****PROGRAM HAS STOPPED*****
