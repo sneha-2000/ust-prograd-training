@@ -1,5 +1,7 @@
 package com.bank.BankApplication;
 
+import com.bank.BankApplication.entity.Customer;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -19,23 +21,32 @@ import org.springframework.context.ApplicationContext;
 // username and password. After the customers successfully log into the website, they can view their
 // account details on the user account page.
 
+//Add required coding to perform necessary CRUD operations with the data in the database
+//C - Create
+//R - Read
+//U - Update
+//D - Delete
+
 @SpringBootApplication
 public class BankApplication {
 
 	public static void main(String[] args) {
 
-	ApplicationContext context = SpringApplication.run(BankApplication.class, args);
-
-		Customer customer1=context.getBean(Customer.class);
-		Customer customer2=context.getBean(Customer.class);
-
-		customer1.setDetailsOfCustomer("Sneha Pradeep","101",21,"8764534323","New Delhi","1","Kalkaji");
-		customer2.setDetailsOfCustomer("Sandra","102",18,"9234522345","Andrews Ganj","2","Sadiq Nagar");
-
-		Account account = context.getBean(Account.class);
-		account.setBalanceAmount(1000);
-
-		FundTransfer fundTransfer=context.getBean(FundTransfer.class);
-		fundTransfer.fundTransfer(500,customer1,customer2,"2");
+		ApplicationContext context = SpringApplication.run(BankApplication.class, args);
 	}
 }
+//		Customer customer1=context.getBean(Customer.class);
+//		Customer customer2=context.getBean(Customer.class);
+//
+//		customer1.setDetailsOfCustomer("Sneha Pradeep","101","sneha@gmail.com","8764534323","New Delhi","1","Kalkaji");
+//		customer2.setDetailsOfCustomer("Sandra","102","sandra@gmail.com","9234522345","Andrews Ganj","2","Sadiq Nagar");
+//
+//		Account account = context.getBean(Account.class);
+//		account.setBalanceAmount(1000);
+//
+//		FundTransfer fundTransfer=context.getBean(FundTransfer.class);
+//		fundTransfer.fundTransfer(500,customer1,customer2,"2");
+//	}
+
+//customer--->id, name,email,phone
+//account---id,customerId,balance

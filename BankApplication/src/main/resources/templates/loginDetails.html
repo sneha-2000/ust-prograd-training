@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>ABC Bank Application</title>
+    <title>Login Page </title>
 </head>
 <body style="background:pink;text-align:center;">
-    <h1>WELCOME TO ABC BANK</h1>
-    <form>
+    <h1>LOGIN TO ABC BANK</h1>
+<!--    <h2><span th:text="${errorMessage}"/></h2>-->
+    <form action="/userDetails" method="post">
         <img src="bank1.jpeg"  width="600" height="300"> </br></br>
-        <input type="text" placeholder="Enter Username" name="uname" required> </br> </br>
-        <input type="password" placeholder="Enter Password" name="psw" required> </br> </br>
-        <button type="submit">Login</button>
+        <input type="text" placeholder="Username" name="Username" required> </br> </br>
+        <input type="email" placeholder="Email" name="email" required> </br> </br>
+        <input type="password" placeholder="Password" name="Password" required> </br> </br>
+        <input type="submit" value="Submit"/></input>
     </form>
+        <a href="registrationForm" class="btn btn-link">New User</a>
+
 
 </body>
 </html>
