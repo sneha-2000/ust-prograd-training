@@ -1,4 +1,4 @@
-package com.example.Day19.demo;
+package com.example.demoAPOApplication;
 
 import org.springframework.stereotype.Component;
 
@@ -27,8 +27,12 @@ public class StudentMarks {
         this.marks= marks;
     }
 
-    public void display(){
-        System.out.println("inside show");
+    // void display
+   //public void show(){-----> earlier
+//        Helper.log();
+    public int show(){
+        System.out.println("inside int show");
+    return 2;
     }
 
 }

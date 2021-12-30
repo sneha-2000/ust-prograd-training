@@ -1,4 +1,4 @@
-package com.bank.BankApplication;
+package com.bank.BankApplication.entity;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -9,7 +9,7 @@ public class FundTransfer {
   @Autowired
   Account account;
 
-  public void fundTransfer(double amount, Customer customer1, Customer customer2,String accountId) {
+  public void fundTransfer(double amount, Customer customer1, Customer customer2, String accountId) {
         if (accountId == customer1.accountNumber && amount < account.balanceAmount) {
             customer1.account.balanceAmount = customer1.account.balanceAmount - amount;
             customer1.showCustomerAccountDetails();

@@ -1,4 +1,4 @@
-package com.example.Day19.demo;
+package com.example.demoAPOApplication;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -28,13 +28,21 @@ public class Student {
     }
 
     public void setName(String name){
-         this.name= name;
+        this.name= name;
     }
 
-    public void show(){
-        studentMarks.display();
+    public void show(int i){
+//        Helper.log();
+        System.out.println("inside void show");
+        studentMarks.show();  //studentsMarks.display()
     }
 
+    public void shown(){
+        System.out.println("inside shown");
+    }
 
+    public void notShown(){
+        System.out.println("inside not shown");
+    }
 
 }

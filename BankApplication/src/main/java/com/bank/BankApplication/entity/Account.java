@@ -1,4 +1,4 @@
-package com.bank.BankApplication;
+package com.bank.BankApplication.entity;
 import org.springframework.stereotype.Component;
 
 @Component
