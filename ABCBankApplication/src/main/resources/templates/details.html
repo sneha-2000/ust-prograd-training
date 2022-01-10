@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Details</title>
+
+    <style>
+        * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.updatebtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.updatebtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.Edit {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+    </style>
+</head>
+<body>
+<div class="mt-3">
+<span class="text-center text-danger">
+        <div th:text="${message}"/>
+    </span>
+</div>
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="details">Profile</a>
+            <a class="nav-link" href="account">Account</a>
+            <a class="nav-link" href="deposit">Deposit Money</a>
+            <a class="nav-link" href="fundTransfer">Fund Transfer</a>
+            <a class="nav-link" href="/">Logout</a>
+        </div>
+    </div>
+    <div class="col-6">
+        <form action="/update">
+            <div class="container">
+                <h1>
+                    <center>Customer Details</center>
+                </h1>
+
+                <p>
+                    Customer Name : <span th:text="${name}"/> <br><br><br>
+                    Email : <span th:text="${email}"/> <br><br><br>
+                    Phone Number : <span th:text="${phone}"/> <br><br><br>
+                    Address : <span th:text="${address}"/> <br><br><br>
+                    City : <span th:text="${city}"/> <br><br><br>
+                    State : <span th:text="${state}"/> <br><br><br>
+                    Country : <span th:text="${country}"/><br>
+                </p>
+
+                    <button type="submit" class="updatebtn">Edit details</button>
+            </div>
+
+<!--            <div class="container edit">-->
+<!--                <p>Do you want to edit your details? <a href="update">Edit</a>.</p>-->
+<!--            </div>-->
+        </form>
+</body>
+</html>

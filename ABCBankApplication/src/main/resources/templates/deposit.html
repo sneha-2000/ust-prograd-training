@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Deposit</title>
+</head>
+<body>
+<style>
+        * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.updatebtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.updatebtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.Edit {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+    </style>
+
+<div class="mt-3">
+<span class="text-center text-danger">
+        <div th:text="${message}"/>
+    </span>
+</div>
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="details">Profile</a>
+            <a class="nav-link" href="account">Account</a>
+            <a class="nav-link" href="deposit">Deposit Money</a>
+            <a class="nav-link" href="fundTransfer">Fund Transfer</a>
+            <a class="nav-link" href="/">Logout</a>
+        </div>
+    </div>
+    <div class="col-6">
+        <form action="/deposit" method="post">
+            <div class="container">
+                <h1><center>Deposit Money</center></h1>
+
+                <hr>
+                <label for="deposit"><b>Deposit Amount</b></label>
+                <!--                <input type="text" name="customerId" th:value="${customerId}">-->
+                <input type="text" name="amount" id="amount" required>
+
+                <button type="submit" class="updatebtn">Deposit</button>
+            </div>
+
+            <!--            <div class="container signin">-->
+
+            <!--            </div>-->
+        </form>
+</body>
+</html>
