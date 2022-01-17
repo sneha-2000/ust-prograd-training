@@ -26,9 +26,9 @@ public class BookedSeatsService {
 //    public List<BookedSeats> findByCustomerUserName(String userName){
 //        return bookedSeatsRepository.findByCustomerUserName(userName);
 //    }
-//
-//
-//    public List<BookedSeats> getBookedSeatsBYUserId(Long customerId){
-//        return bookedSeatsRepository.findBookedSeatsByUserId(customerId);
-//    }
+
+
+    public List<BookedSeats> getBookedSeatsByUserId(Long customerId){
+        return bookedSeatsRepository.findBookedSeatsByUserId(customerId);
+    }
 }

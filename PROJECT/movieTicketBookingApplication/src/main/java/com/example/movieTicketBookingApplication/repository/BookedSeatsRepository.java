@@ -10,9 +10,9 @@ public interface BookedSeatsRepository extends JpaRepository<BookedSeats, Long> 
 
     @Query("Select seats from BookedSeats seats where seats.showId=:showId and seats.seatId=:seatId")
     BookedSeats findBookedSeatsByShowIdAndSeatId(Long showId,Long seatId);
-//
-//    @Query("Select seats from BookedSeats seats where seats.userId=:userId")
-//    List<BookedSeats> findBookedSeatsByUserId(Long userId);
-//
+
+    @Query("Select seats from BookedSeats seats where seats.userId=:userId")
+    List<BookedSeats> findBookedSeatsByUserId(Long userId);
+
 //    public List<BookedSeats> findByCustomerUserName(String username);
 }

@@ -1,13 +1,7 @@
 package com.example.movieTicketBookingApplication.controller;
 
-import com.example.movieTicketBookingApplication.entity.BookedSeats;
-import com.example.movieTicketBookingApplication.entity.Movie;
-import com.example.movieTicketBookingApplication.entity.MovieShow;
-import com.example.movieTicketBookingApplication.entity.User;
-import com.example.movieTicketBookingApplication.service.BookedSeatsService;
-import com.example.movieTicketBookingApplication.service.MovieService;
-import com.example.movieTicketBookingApplication.service.MovieShowService;
-import com.example.movieTicketBookingApplication.service.UserService;
+import com.example.movieTicketBookingApplication.entity.*;
+import com.example.movieTicketBookingApplication.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -34,6 +28,9 @@ public class MovieController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private BookingsService bookingsService;
 
 
     @RequestMapping("/movieDetails")
@@ -88,7 +85,8 @@ public class MovieController {
         model.addAttribute("releaseDate",movieShow.getReleaseDate());
         Double amount = (seats.length)*(movie.getPrice());
         model.addAttribute("amount",amount);
-
+        Bookings bookings = new Bookings(user.getName(),movieShow.getShowTime(),movieShow.getReleaseDate(),seats.length,bookSeats,amount,movie.getMovieName());
+        bookingsService.saveBookings(bookings);
         return "payment";
     }
 
@@ -107,10 +105,13 @@ public class MovieController {
 //        return "myBookings";
 //    }
 
-//    @RequestMapping("/{userName}/myBookings")
-//    public String myBookings(@PathVariable String userName, Model model) {
-//        model.addAttribute("userName", bookedSeatsService.findByCustomerUserName(userName));
-//        return "myBookings";
-//    }
+    @RequestMapping("/myBookings")
+    public String myBookings(Model model) {
+        User user = userService.findUserById(UserController.userId);
+        List<Bookings> bookings = bookingsService.getBookingsByUserName(user.getName());
+        model.addAttribute("bookings", bookings);
+        return "myBookings";
+    }
+
 }
 
