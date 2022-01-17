@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>My Bookings</title>
+</head>
+<body>
+<ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/login">Logout</a></li>
+
+</ul>
+<div class="container">
+    <h1>My Bookings</h1>
+    <table class="table table-striped">
+        <thead class="thead-dark">
+        <th scope="row">Seats</th>
+        <th scope="row">Price</th>
+        <th scope="row">Release Date</th>
+        <th scope="row">Show Time</th>
+        <th scope="row">Movie</th>
+        </thead>
+        <tbody>
+        <tr th:each="booking:${userName}">
+            <td th:text="${booking.seatId}"></td>
+            <td th:text="${booking.movie.price}"></td>
+            <td th:text="${booking.movieShow.releaseDate}"></td>
+            <td th:text="${booking.movieShow.showTime}"></td>
+<!--            <td th:text="${bookings.seatId}"></td>-->
+
+<!--            <td> <button type="submit" class="bookbtn">-->
+
+<!--                <a th:href="@{/movieSlot/{id}(id=${movie.movieId})}" class="mb-3 btn btn-success text-center">Book Show</a></button></td>-->
+
+        </tr>
+
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>
