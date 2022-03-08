@@ -1,6 +1,0 @@
-Dec 15, 2021 10:29:31 PM Currency main
-INFO: *****PROGRAM HAS BEGIN*****
-Dec 15, 2021 10:30:16 PM Currency main
-INFO: User entered amount74.85
-Dec 15, 2021 10:30:16 PM Currency main
-INFO: *****PROGRAM HAS STOPPED*****

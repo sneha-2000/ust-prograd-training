@@ -18,7 +18,7 @@ public class Currency {
         log.addHandler(fh);
         SimpleFormatter formatter = new SimpleFormatter();
         fh.setFormatter(formatter);
-        log.info("*****PROGRAM HAS BEGIN*****");
+        log.info("******PROGRAM HAS BEGIN******");
 
         int choice; // for storing user's choice
 
