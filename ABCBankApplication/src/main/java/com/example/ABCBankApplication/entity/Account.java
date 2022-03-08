@@ -8,6 +8,7 @@ public class Account {
         private Long accountId;
         @Column(nullable=false)
         private String customerName;
+        @Column(nullable = false)
         private String IFSCCode;
         private String address;
         private Double balanceAmount;
