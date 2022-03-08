@@ -35,4 +35,13 @@ public class StudentMarks {
     return 2;
     }
 
+    public void showMarks(){
+        double sub1=90.0;
+        double sub2=80.0;
+        double sub3=95.0;
+        double sum= sub1+sub2+sub3;
+        double avg= sum/3;
+        System.out.println(avg);
+    }
+
 }

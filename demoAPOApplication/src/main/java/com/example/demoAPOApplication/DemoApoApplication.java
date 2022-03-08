@@ -13,6 +13,7 @@ public class DemoApoApplication {
 	ApplicationContext context = SpringApplication.run(DemoApoApplication.class, args);
 	Student student = context.getBean(Student.class);
 	student.show(2);
+	student.showAvg(0);
 	student.notShown();
 	student.shown();
 

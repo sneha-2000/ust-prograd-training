@@ -1,88 +1,72 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>ABC Bank</title>-->
+<!--</head>-->
+<!--<body style="text-align:center">-->
+<!--<form action="/details" method="post">-->
+<!--<h1>Welcome to ABC Bank Services!! </h1>-->
+<!--    <button type="submit" class="btn">Customer Details</button><br><br>-->
+<!--</form>-->
+<!--<form action="/account" method="post">-->
+<!--    <button type="submit" class="btn">Account Details</button><br><br>-->
+<!--</form>-->
+<!--</body>-->
+<!--</html>-->
+
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>ABC Bank</title>
-<!--    <link rel="stylesheet" href="../static/style.css">-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        *{
-    box-sizing: border-box;
-}
-body{
-    margin: 0;
-    padding:
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-nav{
-    overflow: hidden;
-    background: #2f3a4a;
-    line-height: 40px;
-}
-nav a{
-    float: left;
-    display: block;
-    width: 120px;
-    color: #000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
-}
-nav a:hover{
-    background: #ddd;
-    color:black;
-}
-nav a.active{
-    background: #2196f3;
-    color: #fff;
-}
-nav.container{
-    float: right;
-    margin-right: 100px;
-    margin-top: 10px;
-}
-nav input[type=password],input[type=text]{
-    float:right-left;
-    padding: 6px;
-    margin-top: 8px;
-    font-size:17px;
-    border: border-box;
-    width: 150px;
-}
-.container button{
-    float: right-left;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #2196f3;
-    color: #fff;
-    font-size: 17px;
-    border: border-box;
-    cursor: pointer;
-}
-.container button:hover{
-    background:#ccc;
-}
+        h1{
+         margin: 100px 0 12px 0;
+
+
+            }
+            *{
+
+            background-color: rgb(390,140,180);
+            }
     </style>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>ABC Bank</title>
 </head>
-<body>
-    <nav>
-        <a class = "active" href="Home.html">Home</a>
-        <a href="login">Login</a>
-        <a href="userDetails.html">Account</a>
-        <a href="">Logout</a>
-<!--        <div class="container">-->
-<!--            <form>-->
-<!--                <input type="text" placeholder="Username">-->
-<!--                <input type="password" placeholder="Password">-->
-<!--                <button type="submit">Login</button>-->
-<!--            </form>-->
+<body style="text-align:center">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">ABC Bank</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="details">Profile</a>
+                <a class="nav-link" href="account">Account</a>
+                <a class="nav-link" href="deposit">Deposit Money</a>
+                <a class="nav-link" href="fundTransfer">Fund Transfer</a>
+                <a class="nav-link" href="/">Logout</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--<form action="/details" >-->
+<!--<h1>Welcome to ABC Bank Services!! </h1>-->
+<!--    <button type="submit" class="btn">Customer Details</button><br><br>-->
+<!--</form>-->
+<!--<form action="/account" >-->
+<!--    <button type="submit" class="btn">Account Details</button><br><br>-->
+<!--</form>-->
 
-<!--        </div>-->
+<h1>Welcome to ABC Bank Services!!</h1>
 
-    </nav>
-    <img src="BankImage.jpeg"  width="1500" height="800">
 </body>
 </html>

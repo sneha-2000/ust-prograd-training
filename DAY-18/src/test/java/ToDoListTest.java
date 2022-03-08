@@ -21,8 +21,16 @@ public class ToDoListTest {
 
         @Test
         public void addTasksToDoList() {
-           String actualTask = toDoList.checkMyNotes("presentation");
+            String actualTask = toDoList.checkMyNotes("presentation");
             assertEquals("presentation",actualTask);
+
+        }
+
+        @Test
+        public void addOneMoreTaskToDoList() {
+             toDoList.setMyNotes("Calling clients",true);
+             String actualTask = toDoList.checkMyNotes("Calling clients");
+             assertEquals("Calling clients",actualTask);
 
         }
     }

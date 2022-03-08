@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="447382ab-f749-44e4-891e-a134d2871a8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UST-Prograd-Training.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ABCBankApplication/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/AbcBankApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/AbcBankApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/controller/ABCBankApplicationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/controller/BankController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/controller/BankController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/service/BankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/service/BankService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/java/com/example/ABCBankApplication/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/CSS/JS/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/CSS/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/CSS/images/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/CSS/images/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/CSS/images/linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/CSS/images/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/CSS/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/CSS/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/bank1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/static/JS/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/static/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/static/images/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/static/images/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/static/images/linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/static/images/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/static/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/templates/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/templates/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/main/resources/templates/userDetails.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABCBankApplication/src/test/java/com/example/ABCBankApplication/AbcBankApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ABCBankApplication/src/test/java/com/example/ABCBankApplication/AbcBankApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/Bank.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/src/main/java/com/bank/BankApplication/BankApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/src/main/java/com/bank/BankApplication/controller/BankApplicationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/src/main/java/com/bank/BankApplication/entity/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/src/main/java/com/bank/BankApplication/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/src/main/java/com/bank/BankApplication/entity/FundTransfer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/src/main/java/com/bank/BankApplication/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/src/main/java/com/bank/BankApplication/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/src/main/resources/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApplication/src/test/java/com/bank/BankApplication/BankApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY-11/src/main/java/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAY-11/src/main/java/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY-18/src/main/java/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAY-18/src/main/java/ToDoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY-18/src/test/java/ToDoListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAY-18/src/test/java/ToDoListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY-18/target/classes/ToDoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/DAY-18/target/classes/ToDoList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY-18/target/test-classes/ToDoListTest$TestAddListFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/DAY-18/target/test-classes/ToDoListTest$TestAddListFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY-18/target/test-classes/ToDoListTest$TestRemoveListFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/DAY-18/target/test-classes/ToDoListTest$TestRemoveListFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY-18/target/test-classes/ToDoListTest$TestToToggleInTheListFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/DAY-18/target/test-classes/ToDoListTest$TestToToggleInTheListFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY-18/target/test-classes/ToDoListTest$TestToUnRemoveListFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/DAY-18/target/test-classes/ToDoListTest$TestToUnRemoveListFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY-18/target/test-classes/ToDoListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/DAY-18/target/test-classes/ToDoListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY-9/src/FILE HANDLING/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DAY-9/src/FILE HANDLING/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY-9/src/FILE HANDLING/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DAY-9/src/FILE HANDLING/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY-9/src/FILE HANDLING/FileHandling/src/EmployeeDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAY-9/src/FILE HANDLING/FileHandling/src/EmployeeDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY-9/src/FILE HANDLING/FileHandling/src/EmployeeManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAY-9/src/FILE HANDLING/FileHandling/src/EmployeeManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY_11/src/main/java/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY_11/src/test/java/RectangleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day-20-Calculator/src/main/java/com/demo/Day20/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day-20-Calculator/src/main/java/com/demo/Day20/Calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day-20-Calculator/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Day-20-Calculator/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoDatabaseApplication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoDatabaseApplication/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoDatabaseApplication/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoDatabaseApplication/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoDatabaseApplication/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoDatabaseApplication/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoDatabaseApplication/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoDatabaseApplication/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoDatabaseApplication/src/test/java/com/example/DemoDatabaseApplication/DemoDatabaseApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HACKATHON/log" beforeDir="false" afterPath="$PROJECT_DIR$/HACKATHON/log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HACKATHON/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HACKATHON/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HACKATHON/log.txt.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRankCodes/TagExtractor" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRankCodes/TagExtractor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloUST/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloUST/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloUST/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloUST/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloUST/HelloUST/src/main/java/com/example/HelloUST/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/HelloUST/HelloUST/src/main/java/com/example/HelloUST/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJECT/movieTicketBookingApplication/src/main/java/com/example/movieTicketBookingApplication/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT/movieTicketBookingApplication/src/main/java/com/example/movieTicketBookingApplication/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/src/main/java/Convertor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/src/main/java/UnitsConvertor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/src/test/java/ConvertorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/target/classes/Convertor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/target/classes/UnitsConvertor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/target/test-classes/ConvertorTest$ArithmeticOperationsOnUnits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/target/test-classes/ConvertorTest$ConversionOfUnits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD-3/target/test-classes/ConvertorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoAPOApplication/src/main/java/com/example/demoAPOApplication/DemoApoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoAPOApplication/src/main/java/com/example/demoAPOApplication/DemoApoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoAPOApplication/src/main/java/com/example/demoAPOApplication/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoAPOApplication/src/main/java/com/example/demoAPOApplication/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoAPOApplication/src/main/java/com/example/demoAPOApplication/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoAPOApplication/src/main/java/com/example/demoAPOApplication/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoAPOApplication/src/main/java/com/example/demoAPOApplication/StudentMarks.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoAPOApplication/src/main/java/com/example/demoAPOApplication/StudentMarks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoJPA/src/main/java/com/example/demoJPA/controller/JPAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoJPA/src/main/java/com/example/demoJPA/controller/JPAController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoJPA/src/main/java/com/example/demoJPA/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoJPA/src/main/java/com/example/demoJPA/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoJPA/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demoJPA/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-demo/src/main/resources/templates/dynamic.html" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-demo/src/main/resources/templates/dynamic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students.sql" beforeDir="false" afterPath="$PROJECT_DIR$/students.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="24amsrNtIAA677269fGH4kCqbjx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="447382ab-f749-44e4-891e-a134d2871a8d" name="Changes" comment="" />
+      <created>1643877282442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643877282442</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

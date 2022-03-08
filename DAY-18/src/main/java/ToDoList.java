@@ -17,7 +17,6 @@ public class ToDoList {
         }
 
     }
-
     public String checkMyNotes(String task) {
             String existingTask = null;
             for (String notes : myNotes) {

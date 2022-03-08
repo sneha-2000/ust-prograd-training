@@ -7,10 +7,12 @@ import org.springframework.stereotype.Component;
 @Component
 @Aspect
 public class Helper {
-    // Cross-cutting concerns
+//     Cross-cutting concerns
 //    public  static  void log(){
 //        System.out.println("print-only when method is executed!");
 //    }
+
+
 
 //    @Pointcut("execution(public void show())")
 //    public void pointcut() {
@@ -58,8 +60,6 @@ public class Helper {
 
 
 }
-
-
 
 
 

@@ -22,10 +22,9 @@ public class JPAController {
     }
 
 
-
     //https://localhost:4000/create?name=xyz&phone=99999
     @RequestMapping("/create")
-    public Student create(HttpServletRequest request){
+    public Student create(HttpServletRequest request){ //httpServerLetRequest----> to get values from the url
         String name = request.getParameter("name");
         String phone = request.getParameter("phone");
         Student student=new Student(name, "2a",100.00,20,phone);

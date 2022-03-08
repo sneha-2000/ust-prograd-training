@@ -1,6 +1,6 @@
-Dec 15, 2021 2:13:59 PM Currency main
-INFO: *****PROGRAM HAS BEGIN*****
+Dec 15, 2021 10:29:31 PM Currency main
 ***********CONVERT YOUR CURRENCY**********
+INFO: *****PROGRAM HAS BEGIN*****
 1:Rupees to USD
 2:USD to Rupees
 3:Rupees to Euros
@@ -11,8 +11,14 @@ INFO: *****PROGRAM HAS BEGIN*****
 8: Yuan to Rupees
 Enter your Choice from 1-8
 Selected currency is: RUPEES TO USD
-Enter rupee amount: Dec 15, 2021 2:14:15 PM Currency main
+Enter rupee amount: Dec 15, 2021 10:30:16 PM Currency main
 1.0
 INFO: User entered amount74.85
-Dec 15, 2021 2:14:15 PM Currency main
+Dec 15, 2021 10:30:16 PM Currency main
 INFO: *****PROGRAM HAS STOPPED*****
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Currency.main(Currency.java:42)

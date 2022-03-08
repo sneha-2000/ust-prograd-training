@@ -7,11 +7,11 @@ import javax.persistence.*;
         @GeneratedValue(strategy = GenerationType.AUTO)
         private Long id;
         @Column(nullable = false)
-        private String name;
+        private String name;//not null
         private String batch;
         private Double marks;
         @Column(nullable = false)
-        private Integer age;
+        private Integer age;//not null
         @Column(name = "phonenumber", nullable = false, unique = true, updatable = false)
         private String phoneNumber;
 

@@ -31,6 +31,14 @@ public class Student {
         this.name= name;
     }
 
+    public void showAvg(double avg){
+        if(avg<=0)
+         {
+            throw new IllegalArgumentException("Average can't be 0 or negative");
+        }
+        studentMarks.showMarks();
+    }
+
     public void show(int i){
 //        Helper.log();
         System.out.println("inside void show");

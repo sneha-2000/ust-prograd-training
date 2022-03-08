@@ -16,7 +16,7 @@ import java.util.Objects;
 public class MovieController {
     static Long showId;
     static Long moviesId;
-//    static Long idSeat;
+
     @Autowired
     private MovieService movieService;
 
