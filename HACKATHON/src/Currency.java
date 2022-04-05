@@ -149,7 +149,7 @@ public class Currency {
                 }
 
             }
-            log.info("*****PROGRAM HAS STOPPED*****");
+            log.info("******PROGRAM HAS STOPPED)*****");
         }
 
     }
